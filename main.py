@@ -20,14 +20,14 @@ class App:
     auto.mouseDown()
     auto.mouseUp()
 
-  def start(self):
+  def start(self, delay):
     while True:
       if self.action == 'left':
         self.right_move_mouse()
       elif self.action == 'right':
         self.left_move_mouse()
     
-      sleep(5)
+      sleep(delay)
 
 application = App()
-application.start()
+application.start(5)
