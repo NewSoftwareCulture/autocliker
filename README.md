@@ -1,4 +1,4 @@
-#№ Autoclicker for Google Colab
+# Autoclicker for Google Colab
 
 ### Prerequisites
 ```
